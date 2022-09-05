@@ -1,0 +1,28 @@
+.extraInfo {
+    width: auto;
+    min-height: 200px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 125px;
+    margin: 200px 50px; 
+    border-radius: 5px;
+    background: rgb(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 -5px;
+}
+
+p {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.gridItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
